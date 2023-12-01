@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(WhatsApp\ Image\ 2023-10-25\ at\ 00.18.52_4df5fce9.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: rgba(0,0,0,0.2);
+    border:2px solid;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+nav li a:hover{
+    color:#fdfa53a8;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: #fdf45332;
+    transition: all 0.4s ease 0s;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+.search-box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    border: #fff;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search.btn{
+    background: white;
+}
+.search-btn{
+    color: #e4c93d;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #602d03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #0c0b0b;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+} 
+.centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: transparent;
+    color: #fff;
+    padding: 80px;
+}
+.link1{
+    height: 50px;
+    width: 50px;
+    background-color:#f5f6fa;
+    border-radius: 25px;
+    text-align:center;
+    margin: 0px 10px 40px 0px;
+    line-height: 60px;
+}
+.link2{
+    height: 50px;
+    width: 50px;
+    background-color:#f5f6fa;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 10px 40px 0px;
+    line-height: 60px;
+}
+.link3{
+    height: 50px;
+    width: 50px;
+    background-color:#f5f6fa;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    line-height: 60px;
+}
+.link1 i{
+    transition: all 0.3s linear;
+}
+.link2 i{
+    transition: all 0.3s linear;
+}
+.link3 i{
+    transition: all 0.3s linear;
+}
+.link1:hover i{
+    transform: scale(1.4);
+}
+.link2:hover i{
+    transform: scale(1.4);
+}
+.link3:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: #e84393
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-facebook{
+    color: rgb(0, 119, 230);
+}
+h2{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    margin:0;
+}
+
+
+
+
+

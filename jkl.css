@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(temp5.png) fixed;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: url(temp.png);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.box h1{
+    color: rgb(105, 60, 1);
+ }
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-up-btn{
+    background: #a26708f0;
+}
+.login-btn{
+    background: #a26708f0;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 70px;
+    margin-top: -50px;
+}
+.sign-up-btn:hover{
+    background: rgb(208,191,64);
+}
+.login-btn:hover{
+    background: rgb(208,191,64);
+}
+
